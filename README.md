@@ -12,3 +12,11 @@ Included libs:
 Upstream image:
 
 https://hub.docker.com/r/cypress/included/tags
+
+# Manual image build and push (automated build is not working atm):
+
+(you have to use docker login for push!)
+
+    docker build -t aventailltd/cypress-extended-8.2.0-20210809 .
+    docker push aventailltd/cypress-extended-8.2.0-20210809
+
