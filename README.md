@@ -6,6 +6,8 @@ Included libs:
 
 - https://github.com/javierbrea/cypress-localstorage-commands (for local storage testing)
 - cypress-file-upload https://github.com/abramenal/cypress-file-upload (for file uploads)
+- del https://github.com/sindresorhus/del (for artifact file management)
+- curl, git (for gitlab cicd management)
 
 Upstream image:
 
