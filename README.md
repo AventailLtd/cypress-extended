@@ -17,6 +17,6 @@ https://hub.docker.com/r/cypress/included/tags
 
 (you have to use docker login for push!)
 
-    docker build -t aventailltd/cypress-extended-8.2.0-20210809 .
-    docker push aventailltd/cypress-extended-8.2.0-20210809
+    docker build -t aventailltd/cypress-extended:9.0.0-20211112 .
+    docker push aventailltd/cypress-extended:9.0.0-20211112
 
