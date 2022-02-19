@@ -1,5 +1,5 @@
 #FROM cypress/included:9.0.0
-FROM cypress/included:9.3.1
+FROM cypress/included:9.5.0
 
 #WORKDIR /usr/local/lib
 
