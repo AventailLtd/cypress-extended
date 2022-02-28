@@ -5,13 +5,13 @@ on:
 #  schedule:
 #    - cron: '0 10 * * *'
   push:
-    branches:
-      - '**'
+#    branches:
+#      - '**'
     tags:
       - '*.*.*'
-  pull_request:
-    branches:
-      - 'main'
+#  pull_request:
+#    branches:
+#      - 'main'
 
 jobs:
   docker:
