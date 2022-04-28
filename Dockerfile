@@ -7,5 +7,6 @@ FROM cypress/included:9.6.0
 # thus rm cannot be used to remove files of non failing tests
 # cypress-social-logins: facebook/google login
 # decompress: Extracting archives in tests
-RUN yarn add cypress-localstorage-commands cypress-file-upload del curl git cypress-social-logins decompress
+# mochawesome: Cypress reporter
+RUN yarn add cypress-localstorage-commands cypress-file-upload del curl git cypress-social-logins decompress mochawesome
 #RUN npm install cypress-localstorage-commands cypress-file-upload del curl git
