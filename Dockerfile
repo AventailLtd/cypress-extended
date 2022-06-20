@@ -7,5 +7,6 @@ FROM cypress/included:10.1.0
 # cypress-social-logins: facebook/google login
 # decompress: Extracting archives in tests
 # cypress-multi-reporters: Cypress Reporter (Test results)
-RUN yarn add cypress-localstorage-commands cypress-file-upload del curl git cypress-social-logins decompress cypress-multi-reporters
+# @reportportal/agent-js-cypress: reporterportal.io Agent
+RUN yarn add cypress-localstorage-commands cypress-file-upload del curl git cypress-social-logins decompress cypress-multi-reporters @reportportal/agent-js-cypress
 #RUN npm install cypress-localstorage-commands cypress-file-upload del curl git
