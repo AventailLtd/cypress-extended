@@ -1,4 +1,4 @@
-FROM cypress/included:10.1.0
+FROM cypress/included:10.4.0
 
 #WORKDIR /usr/local/lib
 
@@ -9,4 +9,3 @@ FROM cypress/included:10.1.0
 # cypress-multi-reporters: Cypress Reporter (Test results)
 # @reportportal/agent-js-cypress: reporterportal.io Agent
 RUN yarn add cypress-localstorage-commands cypress-file-upload del curl git cypress-social-logins decompress cypress-multi-reporters @reportportal/agent-js-cypress
-#RUN npm install cypress-localstorage-commands cypress-file-upload del curl git
