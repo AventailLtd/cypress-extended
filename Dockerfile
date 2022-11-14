@@ -1,4 +1,5 @@
-FROM cypress/included:10.10.0
+# https://hub.docker.com/r/cypress/included
+FROM cypress/included:11.0.1
 
 #WORKDIR /usr/local/lib
 
