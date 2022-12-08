@@ -9,4 +9,5 @@ FROM cypress/included:12.0.1
 # decompress: Extracting archives in tests
 # cypress-multi-reporters: Cypress Reporter (Test results)
 # @reportportal/agent-js-cypress: reporterportal.io Agent
-RUN yarn add cypress-localstorage-commands cypress-file-upload del curl git cypress-social-logins decompress cypress-multi-reporters @reportportal/agent-js-cypress
+# cypress-fail-on-console-error: Console error watcher plugin
+RUN yarn add cypress-localstorage-commands cypress-file-upload del curl git cypress-social-logins decompress cypress-multi-reporters @reportportal/agent-js-cypress cypress-fail-on-console-error
