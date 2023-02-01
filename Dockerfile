@@ -1,7 +1,10 @@
 # https://hub.docker.com/r/cypress/included
-FROM cypress/included:12.4.1
+FROM cypress/included:12.5.0
 
 #WORKDIR /usr/local/lib
+
+# we need curl for pipeline management
+RUN apt-get update && apt-get install -y -q --no-install-recommends curl && apt-get clean && rm -r /var/lib/apt/lists/*
 
 # del is required because current version of node that cypress uses doesn't contain fs,
 # thus rm cannot be used to remove files of non failing tests
