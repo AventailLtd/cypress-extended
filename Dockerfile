@@ -1,5 +1,5 @@
 # https://hub.docker.com/r/cypress/included
-FROM cypress/included:13.17.0
+FROM cypress/included:14.0.0
 
 #WORKDIR /usr/local/lib
 
