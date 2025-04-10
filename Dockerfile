@@ -13,5 +13,4 @@ RUN apt-get update && apt-get install -y -q --no-install-recommends curl && apt-
 # cypress-multi-reporters: Cypress Reporter (Test results)
 # @reportportal/agent-js-cypress: reporterportal.io Agent
 # cypress-fail-on-console-error: Console error watcher plugin
-# dotenv required for dev, but for cypress config consistency we install it here too.
-RUN yarn add cypress-localstorage-commands cypress-file-upload del curl git cypress-social-logins decompress cypress-multi-reporters @reportportal/agent-js-cypress cypress-fail-on-console-error cypress-real-events dotenv
+RUN yarn add cypress-localstorage-commands cypress-file-upload del curl git cypress-social-logins decompress cypress-multi-reporters @reportportal/agent-js-cypress cypress-fail-on-console-error cypress-real-events
