@@ -11,6 +11,18 @@ RUN apt-get update && apt-get install -y -q --no-install-recommends curl && apt-
 # cypress-social-logins: facebook/google login
 # decompress: Extracting archives in tests
 # cypress-multi-reporters: Cypress Reporter (Test results)
-# @reportportal/agent-js-cypress: reporterportal.io Agent
+# mocha, mochawesome: Test Reporter
 # cypress-fail-on-console-error: Console error watcher plugin
-RUN yarn add cypress-localstorage-commands cypress-file-upload del curl git cypress-social-logins decompress cypress-multi-reporters @reportportal/agent-js-cypress cypress-fail-on-console-error cypress-real-events
+RUN yarn add \
+    cypress-localstorage-commands \
+    cypress-file-upload \
+    del \
+    curl \
+    git \
+    cypress-social-logins \
+    decompress \
+    cypress-multi-reporters \
+    mochawesome \
+    mocha \
+    cypress-fail-on-console-error \
+    cypress-real-events
